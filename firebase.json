@@ -3,7 +3,9 @@
 		"public": ".",
 		"ignore": [
 			"firebase.json",
-			"**/.*"
+			"**/.*",
+			"**/.git/**",
+			".travis.yml"
 		],
 		"rewrites": [
 			{

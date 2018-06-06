@@ -5,7 +5,8 @@
 			"firebase.json",
 			"**/.*",
 			"**/.git/**",
-			".travis.yml"
+			".travis.yml",
+			"deploy.sh"
 		],
 		"rewrites": [
 			{

@@ -6,13 +6,19 @@ node_js:
 branches:
   only:
   - master
+
+# Globally install firebase-tools before the script is executed.
+before_script:
+  - npm install -g firebase-tools
 script:
   - "./deploy.sh"
+
 notifications:
   webhooks:
     on_success: change
     on_failure: always
     on_start: false
+
 # deploy:
 #  provider: firebase
 #  token:

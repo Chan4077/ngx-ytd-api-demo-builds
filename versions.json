@@ -6,7 +6,7 @@
 		},
 		{
 			"type": "version",
-			"name": "1.0.0-alpha.1-fc009a0",
+			"name": "1.0.0-alpha.2-c53c3f1",
 			"link": "/master"
 		},
 		{
@@ -23,8 +23,7 @@
 		{
 			"type": "version",
 			"name": "1.0.0-alpha.2",
-			"link": "/1.0.0-alpha.2",
-			"hidden": true
+			"link": "/1.0.0-alpha.2"
 		}
 	]
 }

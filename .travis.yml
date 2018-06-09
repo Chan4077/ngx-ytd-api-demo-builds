@@ -10,8 +10,9 @@ branches:
 # Globally install firebase-tools before the script is executed.
 # before_script:
 #   - npm install -g firebase-tools
-# script:
+script:
 #   - "./deploy.sh"
+  - echo "Deploying..."
 
 notifications:
   webhooks:

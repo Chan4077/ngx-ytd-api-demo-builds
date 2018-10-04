@@ -28,6 +28,11 @@
         "source": "/head",
         "destination": "/master",
         "type": 302
+      },
+      {
+        "source": "/privacy-policy",
+        "destination": "/master/privacy-policy",
+        "type": 302
       }
     ]
   }

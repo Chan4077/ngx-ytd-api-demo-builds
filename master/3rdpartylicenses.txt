@@ -386,14 +386,12 @@ THE SOFTWARE.
 
 @angular/material/tooltip
 
-@angular/material/icon
-
 @angular/forms
 MIT
 
-@angular/material/core
+@angular/material/checkbox
 
-@angular/material/list
+@angular/material/table
 
 @angular/flex-layout
 MIT
@@ -625,6 +623,23 @@ THE SOFTWARE.
 >>>>>>> Initial commit
 
 
+@angular/material/core
+
+@angular/material/form-field
+
+@angular/material/select
+
+@angular/material/paginator
+
+@angular/material/icon
+
+undefined
+
+ngx-ytd-api
+MIT
+
+@angular/material/list
+
 @angular/material/menu
 
 @angular/material/expansion
@@ -633,20 +648,11 @@ THE SOFTWARE.
 
 @angular/material/divider
 
-ngx-ytd-api
-MIT
-
 @angular/material/card
 
-@angular/material/form-field
-
-@angular/material/select
+@angular/material/slide-toggle
 
 @angular/material/radio
-
-undefined
-
-@angular/material/slide-toggle
 
 @angular/material/progress-spinner
 

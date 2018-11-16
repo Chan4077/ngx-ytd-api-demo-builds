@@ -623,15 +623,15 @@ THE SOFTWARE.
 >>>>>>> Initial commit
 
 
-@angular/material/core
-
 @angular/material/form-field
+
+@angular/material/icon
+
+@angular/material/core
 
 @angular/material/select
 
 @angular/material/paginator
-
-@angular/material/icon
 
 undefined
 

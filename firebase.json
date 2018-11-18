@@ -1,0 +1,39 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/.git/**",
+      ".travis.yml",
+      "deploy.sh"
+    ],
+    "rewrites": [
+      {
+        "source": "/latest/**/!(*.@(js|html|css|json|svg|png|jpg|jpeg))",
+        "destination": "/latest/index.html"
+      },
+      {
+        "source": "/master/**/!(*.@(js|html|css|json|svg|png|jpg|jpeg))",
+        "destination": "/master/index.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/latest",
+        "type": 302
+      },
+      {
+        "source": "/head",
+        "destination": "/master",
+        "type": 302
+      },
+      {
+        "source": "/privacy-policy",
+        "destination": "/master/privacy-policy",
+        "type": 302
+      }
+    ]
+  }
+}

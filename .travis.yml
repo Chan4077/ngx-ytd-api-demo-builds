@@ -12,6 +12,8 @@ branches:
 #  - npm install -g firebase-tools
 # script:
 #  - "./deploy.sh"
+script:
+  - echo 0
 
 notifications:
   webhooks:
